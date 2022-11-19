@@ -1,0 +1,15 @@
+.divPrincipal {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 360px;
+  flex-direction: column;
+}
+
+.divTexto {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  font-size: 2em;
+}

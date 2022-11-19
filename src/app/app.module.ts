@@ -8,6 +8,7 @@ import { LeftMenuComponent } from './core/components/left-menu/left-menu.compone
 import { FooterComponent } from './core/components/footer/footer.component';
 import { CustomerComponent } from './customer/customer/customer.component';
 import { HttpClientModule } from '@angular/common/http';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { HttpClientModule } from '@angular/common/http';
     HeaderComponent,
     LeftMenuComponent,
     FooterComponent,
-    CustomerComponent
+    CustomerComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,

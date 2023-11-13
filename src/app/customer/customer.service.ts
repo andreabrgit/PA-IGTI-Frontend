@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
 })
 export class CustomerService {
 
-  urlApi: string = "https://pa-igti-webapi-clientes.azurewebsites.net"
+  urlApi: string = "https://pa-igti-webapi-cliente.azurewebsites.net"
 
   constructor(private httpClient: HttpClient) { }
 
